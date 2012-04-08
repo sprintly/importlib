@@ -1,0 +1,12 @@
+Source: python-importlib
+Section: python
+Priority: extra
+Maintainer: Joe Stump <joe@joestump.net>
+Build-Depends: cdbs, debhelper (>= 6), python (>= 2.5), python-support, python-setuptools
+Standards-Version: 3.8.3
+Homepage: http://pypi.python.org/pypi/importlib
+
+Package: python-importlib
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, python (>= 2.5)
+Description: Backport of importlib.import_module() from Python 2.7
